@@ -1,64 +1,89 @@
+a{
+    text-decoration: none;
+    color: cornsilk;
+}
+/* ----------- T O P O ------------*/
+body{
+    background-color: rgb(245, 238, 228);
+   
+}
+ 
 .cabecalho-container{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    background-color:  rgb(31, 34, 34);
+}
+ 
+.cabecalho img{
+    width: 50px;
+    margin-left: 25px;
+    padding: 15px 0;
+}
+ 
+.cabecalho h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: rgb(245, 238, 228);
+}
+ 
+.subtitle{
+    position: fixed;
+    background-color: rgb(31, 34, 34);
+    width: 100px;
+    text-align: left;
+ 
+    padding: 10px 40px 10px 10px;
+    color: rgb(209, 202, 191);
+}
+.subtitle h2{
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.subtitle p{
+    font-size: 15px;
 }
  
 .cabecalho-nav{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
+ 
+    font-size: 20px;
+    font-weight: 700;
+ 
+    padding: 0 20px 10px 100px;
+    border-bottom: solid rgb(245, 238, 228);
+    border-width: 1px;
 }
  
-.rodape-container{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.item-nav{
+    padding: 0 20px;
+    text-decoration: none;
+ 
+    border-left: solid rgb(245, 238, 228);
+    border-width: 1px;
+ 
+    text-transform: uppercase;
+    color: cornsilk;
+}
+ 
+/* ----------------------- F I M ------------------------*/
+ 
+.rodape{
+    background-color:  rgb(31, 34, 34);
+}
+ 
+.rodape p{
+    color: rgb(245, 238, 228);
+    font-size: 15px;
+    font-weight: 200;
+    margin-right: 50px;
+ 
+}
+.rodape img{
+    width: 200px;
+    margin-left: 50px;
+    padding: 15px 0;
 }
  
  
-/* ------------M O B I L E------------ */
-@media screen and (max-width: 768px) {
  
- 
-    .cabecalho-container{
-        display: flex;
-        width: 100%;
-        height: auto;
-        flex-direction: column;
-        align-items: center;
-    }
-   
-    .cabecalho-nav{
-        width: 100%;
-        height: auto;
-        position: flex;
-        flex-direction: column;
-        margin: 5% 0 0 0;
-    }
-    .cabecalho h1{
-        font-size: 40px;
-        text-transform: uppercase;
-        font-weight: 600;
-        color: rgb(245, 238, 228);
-       
-    }
-    .subtitle{
-        width: auto;
-        height: auto;
-        position: static;
-    }
- 
-    .rodape-container{
-        display: flex;
-        height: auto;
-        width: auto;
-        flex-direction: column;
-        align-items: center;
-        padding: 10px 0;
-    }
-}  
  
 
