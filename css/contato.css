@@ -1,0 +1,155 @@
+/* ----------------------- M E I O ------------------------*/
+form label, form p, form input{
+    display:block;
+}
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+ 
+form {
+    margin: 40px 0;
+}
+ 
+div input {
+    font-size: 17px;
+    border: 0;
+    background-color: rgb(245, 238, 228);
+    outline: 0;
+    border-bottom: 3px solid  rgb(31, 34, 34);
+    width: 54%;
+}
+ 
+ 
+ 
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+}
+ 
+ 
+ 
+ 
+form label, form p {
+    display: block;
+    font-size: 20px;
+    margin: 10px 0px;
+}
+ 
+textarea {
+    margin: 0 0px 20px;
+    resize: none;
+    border-radius: 5px;
+}
+ 
+.enviar {
+    font-family: 'Kaisei Tokumin', serif;
+    font-weight: bold;
+    border-radius: 7px;
+    font-size: 20px;
+    height: 50px;
+    width: 250px;
+    background-color: grey;
+    transition: all 0.1s ease-in;
+    transition-delay: 0.1s;
+}
+ 
+.enviar:hover {
+    background-color: lightgray;
+    transform: scale(1.05);
+    transition: all 0.5s;
+}
+ 
+fieldset {
+    margin: 0 0 30px;
+}
+ 
+ 
+.input-padrao{
+    display: block;
+    margin: 0 0 20px 0;
+    padding: 10px 25px;
+    width: 50%;
+}
+ 
+ 
+.titulo_nav img{
+    height: 90px;
+    width: 150px;
+}
+ 
+fieldset label {
+    margin: 10px 0 0px;
+}
+ 
+legend {
+    font-size: 25px;
+}
+.checkbox {
+    margin: 30px 0 30px;
+    font-size: 17px;
+    color: rgb(218, 55, 55)
+}
+ 
+ul li, main, footer {
+    font-family: 'Kaisei Tokumin', serif;
+}
+ 
+select {
+    font-family: 'Kaisei Tokumin', serif;
+    font-size: 17px;
+    width: 90px;
+    background-color: aliceblue;
+    margin: 7px 0px 30px;
+}
+ 
+#mensagem {
+    margin: 0 0 40px;
+}
+ 
+#telefone {
+    margin: 0 0 20px;
+}
+ 
+table {
+    margin: 20px 0 40px 0;
+}
+ 
+thead {
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+ 
+td, th {
+    border: 1px solid black;
+    padding: 8px 15px;
+}
+ 
+@media screen and (max-width: 768px) {
+    .titulo_nav{
+        width: auto;
+    }
+ 
+    h1{
+        text-align: center;
+    }
+ 
+    .menu {
+        position: flex;
+    }
+   
+    .cabecalho{
+        width: 1050px;
+        position: relative;
+        right: 50px;
+    }
+ 
+    .rodape {
+        width: 1000px;
+        position: absolute;
+    }
+}
+

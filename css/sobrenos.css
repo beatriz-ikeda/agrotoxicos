@@ -1,0 +1,117 @@
+/* ----------------------- M E I O ------------------------*/
+ 
+.nome{
+    text-align: center;
+    font-weight: 600;
+    font-size: 25px;
+    padding: 20px 20px;
+    margin-top: 10px;
+ 
+    border-bottom-color: rgb(33, 34, 34);
+    border-bottom-style: solid;
+    border-width: 1px;
+}
+ 
+.section-titulo{
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 20px;
+ 
+    border-color: rgb(33, 34, 34);
+    border-width: 1px;
+    border-style: solid;
+}
+ 
+.text-group{
+    text-align: justify;
+    width: 300px;
+    padding: 5px 120px;
+}
+.text-group h3{
+    font-size: 20px;
+    padding: 10px 0;
+}
+.text-group p{
+    width: 300px;
+    padding: 5px 75px;
+    font-size: 15px;
+}
+ 
+/* ------------A L U N O------------ */
+ 
+.alu-container{
+    margin: 0 50px;
+    background-color:rgb(130, 189, 135);
+    padding: 20px 0;
+}
+.alu {
+    text-align: center;
+}
+.imgalu{
+    width: 210px;
+    margin: 20px;
+ 
+    padding: 5px;
+    border-color: rgb(31, 34, 34);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50%;
+}
+/* ------------P R O F F E S S O R------------ */
+ 
+.prof-container{
+    margin: 0px 50px;
+    background-color: rgb(204, 138, 138);
+    padding: 20px 0;
+}
+ 
+.imgprof{
+    text-align: center;
+    width: 210px;
+ 
+    margin: 20px 0;
+    padding: 5px;
+ 
+    border-color: rgb(31, 34, 34);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50%;
+ 
+}
+ 
+.link-box{
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+ 
+    margin-top: 20px;
+    padding-bottom: 50px;
+}
+.linkchar{
+   
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(31, 34, 34);
+ 
+    padding: 20px 160px;
+    border-color: rgb(33, 34, 34);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+    margin: 10px 20px;
+}
+ 
+.linkchar:hover{
+    border-width: 2px;
+    border-style: outset;
+}
+ 
+ 
+ 
+ 
+ 
+ 
+
