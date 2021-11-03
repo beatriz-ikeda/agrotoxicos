@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="pt br">
- 
+
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width">
     <title>Agrotóxicos - Quem Somos</title>
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/inicio.css" />
     <link rel="stylesheet" href="css/flexbox.css" />
+    <link rel="stylesheet" href="css/flexbox_inicio.css" />
     <link rel="icon" href="imgs/logo_ifms3.png" />
 </head>
- 
+
 <body>
     <!---------------- T O P O ------------------->
     <header class="cabecalho">
@@ -33,43 +35,85 @@
     <!---------------- F I M - T O P O ------------------->
     <!---------------- C O N T E U D O ------------------->
     <main>
-        <div class="info-container">
-            <section class="descricao-container">
-                <div class="ideiaobjetivo">
-                    <h1>Descrição:</h1>
-                    <h2>Ideia Central:</h2>
-                    <p>
- 
-                    </p>
-                    <h2>Objetivos:</h2>
-                    <p>
- 
-                    </p>
+        <section class="info-container">
+            <div class="descricao-container">
+                <h1 class="section-titulo">Descrição:</h1>
+                <h2 class="section-subtitle">| Ideia Central:</h2>
+                <p class="descricao">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec semper purus, consectetur
+                    mattis urna. Nulla arcu odio, dictum quis tristique quis, viverra elementum turpis. Sed sit amet
+                    scelerisque orci. Donec ornare elementum pharetra. Praesent pharetra augue ac finibus laoreet.
+                    Curabitur tempor vel lectus sit amet porttitor. Vivamus ultricies dapibus leo, vel iaculis ipsum
+                    tempus porttitor. Ut pharetra urna non risus ornare ornare at quis mauris. Vivamus nec nisl
+                    arcu. Phasellus nec laoreet nibh.
+                </p>
+            </div>
+            <div class="objetivos-container">
+                <h2 class="section-subtitle">| Objetivos:</h2>
+                <ul>
+                    <li class="objetivos-item">[content]</li>
+                    <li class="objetivos-item">[content]</li>
+                    <li class="objetivos-item">[content]</li>
+                    <li class="objetivos-item">[content]</li>
+                    <li class="objetivos-item">[content]</li>
+                </ul>
+            </div>
+
+        </section>
+        <section class="materias-envolvidas">
+            <h1 class="section-titulo">| Disciplinas envolvidas</h1>
+            <h2 class="mat-title">| Química 5</h2>
+            <h2 class="mat-title">| Desenvolvimento Web 1</h2>
+            <section class="prof-container">
+                <h1 class="section-titulo">Professores: </h1>
+                <div class="flex-container">
+                    <div class="prof">
+                        <h2 class="nome">| Delmir da Costa Felipe</h2>
+
+                        <div class="text-group">
+                            <p>➛ Professor de Quimica</p>
+                            <p>➛ Instituto Federal de Mato Grosso do Sul</p>
+                            <h3>➥ Email: delmir.felipe@ifms.edu.br</h3>
+                        </div>
+
+                        <a href="http://lattes.cnpq.br/5427759723523621" target="_blank"><img class="imgprof"
+                                src="imgs/prof_delmir.png"></a>
+
+                        <h5 class="link-box"><a class="linkchar" href="http://lattes.cnpq.br/5427759723523621"
+                                target="_blank">Currículo lattes</a></h5>
+                    </div>
+                    <div class="prof">
+                        <h2 class="nome">| Fabio Luiz Faria da Silva</h2>
+
+                        <div class="text-group">
+                            <p>➛ Professor de Desenvolvimento Web</p>
+                            <p>➛ Instituto Federal de Mato Grosso do Sul</p>
+                            <h3>➥ Email: fabio.silva@ifms.edu.br</h3>
+                        </div>
+                        <a href="http://lattes.cnpq.br/6998321135974577" target="_blank"><img class="imgprof"
+                                src="imgs/prof_fabio.png"></a>
+                        <h5 class="link-box"><a class="linkchar" href="http://lattes.cnpq.br/6998321135974577"
+                                target="_blank">Currículo lattes</a></h5>
+
+                    </div>
                 </div>
-                <div class="materias-envolvidas">
-                    <h2>Disciplinas envolvidas</h2>
-                    <p>
- 
-                    </p>
-                    <h3>Professores:</h3>
-                    <p>
- 
-                    </p>
-                </div>
+            </section>
             </div>
             <section class="projetos-container">
-                <h1>Projetos:</h1>
-                <a class="item-projs" href="#">Nome Projeto</a>
-                <a class="item-projs" href="#">Nome Projeto</a>
-                <a class="item-projs" href="#">Nome Projeto</a>
-                <a class="item-projs" href="#">Nome Projeto</a>
-                <a class="item-projs" href="#">Nome Projeto</a>
-                <a class="item-projs" href="#">Nome Projeto</a>
-            </div>
-        </div>
+                <h1 class="section-titulo">Projetos:</h1>
+                <!---------------- fazer parecido com a tabela do prof dos videos de flexbox seria daora ------------------->
+                <ul>
+                    <li><a class="item-projs" href="#">Nome Projeto</a></li>
+                    <li><a class="item-projs" href="#">Nome Projeto</a></li>
+                    <li><a class="item-projs" href="#">Nome Projeto</a></li>
+                    <li><a class="item-projs" href="#">Nome Projeto</a></li>
+                    <li><a class="item-projs" href="#">Nome Projeto</a></li>
+                    <li><a class="item-projs" href="#">Nome Projeto</a></li>
+                </ul>
+            </section>
     </main>
     <!---------------- F I M - C O N T E U D O ------------------->
- 
+
     <!---------------- R O D A P E ------------------->
     <footer class="rodape">
         <div class="rodape-container">
@@ -80,6 +124,5 @@
     </footer>
     <!---------------- F I M - R O D A P E ------------------->
 </body>
- 
-</html>
 
+</html>
