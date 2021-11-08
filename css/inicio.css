@@ -1,7 +1,11 @@
 .info-container{
-    margin: 0 50px;
+    margin: 50px 0px;
     background-color:rgb(130, 189, 135);
     padding: 20px 0;
+}
+
+.box-descricao{
+    margin: 0px 150px;
 }
 
 .section-subtitle{/* 
@@ -46,22 +50,48 @@
 }
 /* ------------D E S C R I C A O------------ */
 .descricao-container{
-    
+    width: 70%;
+    margin-bottom: 75px 0px;
 }
 
 /* ------------O B J E T I V O S------------ */
 .objetivos-container{
-
+    border-color: rgb(33, 34, 34);
+    border-width: 1px;
+    border-style: solid;
+    margin: 10px 50px;
+    width: 30%;
+    padding: 10px;
+}
+.list-objs{
+    margin: 10px 50px;
 }
  .objetivos-item{
 
  }
+ /* ------------P R O J E T O S------------ */
+.projetos-container{/* 
+    margin: 0 50px; */
+    background-color:rgb(130, 189, 186);
+    padding: 20px 0;
+}
+.proj-box{
+    margin: 0px 150px;
+}
+.list-projs{
+    margin: 10px 50px;
+}
+
 /* ------------M A T E R I A S------------ */
 
 .materias-envolvidas{
-    margin: 0px 50px;
+    margin: 50px 0px;
     background-color: rgb(204, 138, 138);
     padding: 20px 0;
+}
+
+.disciplinas-container{
+    margin: 0px 150px;
 }
  /* ------------P R O F F E S S O R------------ */
  .nome{
@@ -77,14 +107,12 @@
 }
  
 .prof-container{
-    margin: 0px 50px;
-    background-color: rgb(204, 138, 138);
-    padding: 20px 0;
+    margin: 10px 250px;
 }
  
 .imgprof{
     text-align: center;
-    width: 210px;
+    width: 175px;
  
     margin: 20px 0;
     padding: 5px;
@@ -111,7 +139,7 @@
     text-transform: uppercase;
     color: rgb(31, 34, 34);
  
-    padding: 20px 160px;
+    padding: 20px 50px;
     border-color: rgb(33, 34, 34);
     border-width: 1px;
     border-style: solid;
@@ -125,10 +153,3 @@
 }
  
  
-/* ------------P R O J E T O S------------ */
-.projetos-container{
-    margin: 0 50px;
-    background-color:rgb(130, 189, 186);
-    padding: 20px 0;
-}
-
