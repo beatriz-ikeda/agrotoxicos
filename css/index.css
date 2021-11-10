@@ -53,7 +53,12 @@
     width: 70%;
     margin-bottom: 75px 0px;
 }
-
+.descricao{
+    text-align: justify;
+    width: 1050px;
+    padding: 10px 0;
+    margin-left: 50px;
+}
 /* ------------O B J E T I V O S------------ */
 .objetivos-container{
     border-color: rgb(33, 34, 34);
@@ -62,6 +67,15 @@
     margin: 10px 50px;
     width: 30%;
     padding: 10px;
+}
+
+.objetivos-container .section-subtitle{
+    font-weight: 600;
+    font-size: 25px;
+ 
+    border-bottom-color: rgb(33, 34, 34);
+    border-bottom-style: solid;
+    border-width: 1px;
 }
 .list-objs{
     margin: 10px 50px;
@@ -72,26 +86,67 @@
  /* ------------P R O J E T O S------------ */
 .projetos-container{/* 
     margin: 0 50px; */
-    background-color:rgb(130, 189, 186);
+    background-color:rgb(208, 245, 244);
     padding: 20px 0;
 }
 .proj-box{
     margin: 0px 150px;
 }
 .list-projs{
-    margin: 10px 50px;
+    margin: 10px 40px;
+    border-color: rgb(33, 34, 34);
+    border-width: 1px;
+    border-style: solid;
+}
+.item-projs{
+
+    height: 55px;
+	background-color: rgb(34, 36, 43);
+	text-align: center;
+	margin: 1%;
+}
+.item-projs a{
+    text-decoration: none;
+	color: rgb(245, 245, 245);
+	font-weight: bold;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.item-projs:hover {
+	box-shadow: 4px 4px 4px rgba(32, 34, 41, 0.507);
+}
+
+.item-projs a:before {
+	content: ''; 
+	display: block;
+	width: 10px;
+	height: 20px;/* 
+	margin: 5px auto; */
 }
 
 /* ------------M A T E R I A S------------ */
 
 .materias-envolvidas{
     margin: 50px 0px;
-    background-color: rgb(204, 138, 138);
+    background-color: rgb(199, 180, 180);
     padding: 20px 0;
 }
 
 .disciplinas-container{
     margin: 0px 150px;
+    margin-bottom: 50px;
+}
+
+.disciplinas-container .text-group{
+    text-align: justify;
+    width: 500px;
+    margin-left: 50px;
+}
+
+.mat-title{
+    font-size: 30px;
+    padding: 10px 0;
 }
  /* ------------P R O F F E S S O R------------ */
  .nome{
