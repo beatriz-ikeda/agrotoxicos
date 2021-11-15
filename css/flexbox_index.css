@@ -55,34 +55,86 @@
         align-items: center;
     }
      .text-group{ 
-        text-align: left; 
         width: 100%;
         padding: 2% 0;
-        margin: 0%;
+        margin: 0;
     }
-    .linkchar{
-        font-size: 70%;
-    }
-    .text-group h3{
-        font-size: 20px;
-        padding: 3% 0;
-        margin: 0%;
-    }
-    .text-group p{
-        padding: 2% 0;
-    }
-    .prof-container{
-        margin: 0 10%;
-    }
-    .flex-container{
+     
+    .info-container .flex-container{
         align-items: center;
         flex-direction: column;
        
         text-align: center;
         height: auto;
         width: 100%;
-        margin: 0%;
+    
+        padding: 5% 0;
+    }
+
+    .box-descricao{
+        margin: 0 5%;
+    }
+    .descricao-container .section-subtitle{
+        margin: 1% 0;
+    }
+    .descricao-container .descricao{
+        margin: 0 0;
+        padding: 10% 5%;
+    }
+    .descricao-container {
+        width: 100%;
+        margin: 0 0;
         padding: 0 0;
+    }
+
+    .objetivos-container{
+        width: 100%;
+        margin: 0 0;
+        padding: 0 0;
+    }
+
+    .objetivos-container .list-objs{
+        padding: 5% 5%;
+    }
+
+    .proj-box{
+        width: 90%;
+        margin: 0 5%;
+        padding: 0 0;
+    }
+
+    .list-projs{
+        width: 100%;
+        padding: 10% 0;
+        margin: 2% 0;
+    }
+    .item-projs{
+        width: 90%;
+    }
+
+    .disciplinas-container .text-group{
+        text-align: justify;
+        width: 100%;
+    }
+    .disciplinas-container .descricao{
+        width: 100%;
+        margin: 0;
+        padding: 1% 0;
+    }
+
+    
+    .disciplinas-container .flex-container{
+        align-items: center;
+        flex-direction: column;
+       
+        text-align: center;
+        height: auto;
+        width: 100%;
+    
+        padding: 5% 0;
+    }
+    .prof-container{
+        margin: 0 10%;
     }
     .prof{
         flex-direction: column;
@@ -95,6 +147,45 @@
     .linkchar{
         padding: 5% 5%;
     }
+
+    
+    
+    .prof-container .flex-container{
+        align-items: center;
+        flex-direction: column;
+       
+        text-align: center;
+        height: auto;
+        width: 100%;
+    
+        padding: 5% 0;
+    }
+
+    .prof p{
+        width: 100%;
+        margin: 0;
+        padding: 1% 0;
+    }
+    
+    .prof{ 
+        text-align: center;
+    } 
+    
+    .list-projs{
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+        flex-wrap: wrap;
+        
+        text-align: center;
+        height: auto;
+        width: 100%;
+        /* justify-content: flex-start;
+        justify-content: flex-end; 
+        justify-content: center; */
+        
+    }
+    
 }  
  
 

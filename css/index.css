@@ -5,7 +5,7 @@
 }
 
 .box-descricao{
-    margin: 0px 150px;
+    margin: 0px 100px;
 }
 
 .section-subtitle{/* 
@@ -37,7 +37,7 @@
 .text-group{
     text-align: justify;
     width: 300px;
-    padding: 5px 120px;
+    padding: 5px 75px;
 }
 .text-group h3{
     font-size: 20px;
@@ -54,8 +54,8 @@
     margin-bottom: 75px 0px;
 }
 .descricao{
-    text-align: justify;
-    width: 1050px;
+    text-align: justify;/* 
+    width: 70%; */
     padding: 10px 0;
     margin-left: 50px;
 }
@@ -64,24 +64,25 @@
     border-color: rgb(33, 34, 34);
     border-width: 1px;
     border-style: solid;
-    margin: 10px 50px;
-    width: 30%;
+    margin: 10px 0px;
+    width: 25%;
     padding: 10px;
 }
 
 .objetivos-container .section-subtitle{
     font-weight: 600;
     font-size: 25px;
+    margin: 10px;
  
     border-bottom-color: rgb(33, 34, 34);
     border-bottom-style: solid;
     border-width: 1px;
 }
 .list-objs{
-    margin: 10px 50px;
+    margin: 10px;
 }
  .objetivos-item{
-
+    margin-bottom: 10px;
  }
  /* ------------P R O J E T O S------------ */
 .projetos-container{/* 
@@ -129,19 +130,19 @@
 
 .materias-envolvidas{
     margin: 50px 0px;
-    background-color: rgb(199, 180, 180);
+    background-color: rgb(218, 179, 179);
     padding: 20px 0;
 }
 
 .disciplinas-container{
-    margin: 0px 150px;
+    margin: 20px;
     margin-bottom: 50px;
 }
 
 .disciplinas-container .text-group{
     text-align: justify;
-    width: 500px;
-    margin-left: 50px;
+    width: 500px;/* 
+    margin-left: 10px; */
 }
 
 .mat-title{
@@ -162,7 +163,7 @@
 }
  
 .prof-container{
-    margin: 10px 250px;
+    margin: 10px 100px;
 }
  
 .imgprof{
