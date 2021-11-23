@@ -27,8 +27,7 @@
     font-weight: 600;
     font-size: 25px;
     padding: 10px 20px;
-    margin-top: 10px;
-    margin-left: 50px;
+    margin: 20px;
  
     border-bottom-color: rgb(33, 34, 34);
     border-bottom-style: solid;
@@ -38,10 +37,17 @@
     padding: 15px 75px;
     font-size: 15px;
 }
-.img-body{
-    width: 30%;
+.img-item{
+    width: 70%;
+    border-radius: 10px;
 }
-
+.lista{
+    padding: 10px;
+}
+.item-lista{
+    margin-top: 5px;
+    font-size: 15px;
+}
 /*------------- H I S T O R I A ------------*/
 
 

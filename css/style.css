@@ -1,3 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+/*
+font-family: 'Quicksand', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Fredoka One', cursive;
+
+*/
+
+p{
+    font-family: 'Quicksand', sans-serif;
+}
+h1{
+    font-family: 'Quicksand', sans-serif;
+}
+h2{
+    font-family: 'Quicksand', sans-serif;
+}
 a{
     text-decoration: none;
     color: rgb(228, 226, 229);
@@ -11,33 +33,38 @@ body{
 .cabecalho-container{
     background-color: rgb(0,0,0);
     box-shadow: 4px 4px 4px rgba(32, 34, 41, 0.507);
+    
 }
  
 .cabecalho img{
-    width: 50px;
+    width: 30px;
     margin-left: 25px;
     padding: 15px 0;
 }
  
 .cabecalho h1{
-    font-size: 50px;
+    font-size: 40px;/* 
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 600; */
     color: rgb(228, 226, 229);
+    font-family: 'Lobster', cursive;
 }
  
 .subtitle{
     position: fixed;
-    background-color: rgb(34, 36, 43);
+    background-color: rgb(0, 0, 0);
     width: 100px;
     text-align: left;
+    border-radius: 7px;
  
+    margin-top: 10px;
+    margin-left: 5px;
     padding: 10px 40px 10px 10px;
     color:rgb(228, 226, 229);
 }
 .subtitle h2{
-    font-size: 20px;
-    font-weight: 700;
+    font-size: 18px;
+    font-weight: 600;
     text-transform: uppercase;
 }
 .subtitle p{
@@ -45,10 +72,6 @@ body{
 }
  
 .cabecalho-nav{
- 
-    font-size: 20px;
-    font-weight: 700;
- 
     padding: 0 20px 10px 100px;
     border-bottom: solid rgb(228, 226, 229);
     border-width: 1px;
@@ -63,6 +86,9 @@ body{
  
     text-transform: uppercase;
     color: rgb(228, 226, 229);
+
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
 }
  
 /* ----------------------- F I M ------------------------*/
@@ -73,8 +99,8 @@ body{
  
 .rodape p{
     color: rgb(228, 226, 229);
-    font-size: 15px;
-    font-weight: 200;
+    font-size: 15px;/* 
+    font-weight: 200; */
     margin-right: 50px;
  
 }
