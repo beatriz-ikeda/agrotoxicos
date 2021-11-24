@@ -20,6 +20,12 @@ h1{
 h2{
     font-family: 'Quicksand', sans-serif;
 }
+h3{
+    font-family: 'Quicksand', sans-serif;
+}
+li{
+    font-family: 'Quicksand', sans-serif;
+}
 a{
     text-decoration: none;
     color: rgb(228, 226, 229);
