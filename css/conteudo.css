@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
 .info-container{
     padding: 2% 5%;
 }
@@ -62,6 +64,40 @@
 }
 .box-fonte{
     text-align: right;
+}
+
+
+
+table {
+    padding: 20px;
+}
+
+thead {
+    background: #575758;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.nome-agrotox{
+    background: #bbbbd3;
+    font-weight: bold;
+}
+
+td, th {
+    font-family: 'Quicksand', sans-serif;
+    border: 1px solid black;
+    padding: 10px 15px;
+    align-items: center;
+}
+
+tr{
+    vertical-align:top;
+}
+
+.img-estrutura-quim{
+    width: 200px;/* 
+    padding: 2%; */
 }
 /*------------- H I S T O R I A ------------*/
 
