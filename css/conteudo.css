@@ -84,15 +84,12 @@ thead {
     font-weight: bold;
 }
 
-td, th {
+tr, th {
     font-family: 'Quicksand', sans-serif;
     border: 1px solid black;
     padding: 10px 15px;
-    align-items: center;
-}
-
-tr{
     vertical-align:top;
+    text-align: center;
 }
 
 .img-estrutura-quim{
