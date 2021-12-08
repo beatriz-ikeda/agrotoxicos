@@ -40,17 +40,49 @@
 .box-text{
     padding: 0 5%;
 }
-.box-img{
-    padding: 2%;
+.box-img{/* 
+    padding-right: 1%; */
 }
  
 /* ------------M O B I L E------------ */
 @media screen and (max-width: 768px) {
  
+    .flex-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .color-container{
+        padding: 10% 0;
+    }
+
     .box-text{
         display: flex;
         flex-direction: column;
         align-items: center;
+
+        margin: 5% 0;
+        padding:0 1%;
+    }
+    .section-titulo{
+        font-size: 45px;
+    }
+    .section-subtitle{
+        font-size: 35px;
+    }
+.fonte-link{
+    font-size: 20px;
+}
+    .texto{
+        font-size: 25px;
+        padding: 5% 10%;
+    }
+    
+    .lista-title{
+        padding: 10% 0;
     }
     
     .box-img{
@@ -59,6 +91,11 @@
         align-items: center;
     }
     
+    .item-lista{
+        margin-top: 5px;
+        font-size: 20px;
+        text-align: center;
+    }
 }  
  
 

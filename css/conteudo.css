@@ -43,7 +43,7 @@
     margin-bottom:  2%;
 }
 .img-item{
-    width: 200px;
+    width: 400px;
     border-radius: 10px;
 }
 .lista{
@@ -53,6 +53,7 @@
     font-weight: 600;
     font-size: 25px;
     padding: 10px 20px;
+    text-align: center;
 }
 .item-lista{
     margin-top: 5px;

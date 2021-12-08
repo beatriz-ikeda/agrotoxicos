@@ -38,16 +38,26 @@
         margin: 5% 0 0 0;
     }
     .cabecalho h1{
-        font-size: 40px;
+        font-size: 45px;
         text-transform: uppercase;
         font-weight: 600;
         color: rgb(245, 238, 228);
        
     }
+
+    .item-nav{
+        font-size: 25px;
+    }
     .subtitle{
         width: auto;
         height: auto;
         position: static;
+    }
+    .subtitle p{
+        font-size: 18px;
+    }
+    .subtitle h2{
+        font-size: 20px;
     }
  
     .rodape-container{
