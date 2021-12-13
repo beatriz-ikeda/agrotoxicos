@@ -1,5 +1,7 @@
 /* ----------------------- M E I O ------------------------*/
- 
+.info-container{
+    padding: 2% 5%;
+}
 .nome{
     text-align: center;
     font-weight: 600;
@@ -42,9 +44,12 @@
 /* ------------A L U N O------------ */
  
 .alu-container{
-    margin: 0 50px;
-    background-color:rgb(130, 189, 135);
-    padding: 20px 0;
+    margin: 50px 0px;
+    background-color:rgb(213, 213, 226);
+    padding: 50px;
+
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px rgba(32, 34, 41, 0.171);
 }
 .alu {
     text-align: center;
@@ -62,9 +67,12 @@
 /* ------------P R O F F E S S O R------------ */
  
 .prof-container{
-    margin: 0px 50px;
-    background-color: rgb(204, 138, 138);
-    padding: 20px 0;
+    margin: 50px 0px;
+    background-color:rgb(213, 213, 226);
+    padding: 50px;
+
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px rgba(32, 34, 41, 0.171);
 }
  
 .imgprof{
