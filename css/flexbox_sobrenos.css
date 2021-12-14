@@ -21,6 +21,8 @@
     .info-container{
         flex-direction: column;
         align-items: center;
+
+        padding: 2%;
     }
     .text-group{
         text-align: center;
@@ -37,10 +39,12 @@
         padding: 2% 0;
     }
     .alu-container{
-        margin: 0 10%;
+        margin: 10% 0;
+        padding: 10% 8%;
     }
     .prof-container{
-        margin: 0 10%;
+        margin: 10% 0;
+        padding: 10% 8%;
     }
     .flex-container{
         align-items: center;
