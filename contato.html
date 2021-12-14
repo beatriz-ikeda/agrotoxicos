@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <title>Agrotóxicos - Contato</title>
-    <link rel="stylesheet" href="css/reset.css"/>
-    <link rel="stylesheet" href="css/style.css"/>
-    <link rel="stylesheet" href="css/contato.css"/>
-    <link rel="icon" href="img/logo_ifms3.png"/>
-    <link rel="stylesheet" href="css/flexbox.css"/>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/contato.css" />
+    <link rel="icon" href="img/logo_ifms3.png" />
+    <link rel="stylesheet" href="css/flexbox.css" />
 </head>
- 
+
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&display=swap');
 </style>
- 
+
 <body>
     <!---------------- T O P O ------------------->
     <header class="cabecalho">
@@ -35,68 +36,50 @@
             <h2>Contato...</h2>
         </div>
     </header>
- 
+
     <!---------------- F I M - T O P O ------------------->
     <!---------------- C O N T E U D O ------------------->
     <main>
         <form>
             <div class="informacoes">
                 <section class="dados_pessoais">
-                <label for="nomecompleto">Nome completo</label>
-                <input type="text" id="nomecompleto" required>
-                <label for="email">E-mail</label>
-                <input type="email" id="email" required placeholder="seuemail@dominio.com">
-                <label for="telefone">Telefone</label>
-                <input type="tel" id="telefone" required placeholder="(XX) XXXX-XXXX">
-                <label for="mensagem">Mensagem</label>
-                <textarea cols="70" rows="10" id="mensagem" placeholder="Escreva a sua mensagem aqui..."></textarea>
+                    <label for="nomecompleto">Nome completo</label>
+                    <input type="text" id="nomecompleto" required>
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" required placeholder="seuemail@dominio.com">
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="telefone" required placeholder="(XX) XXXX-XXXX">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea cols="70" rows="10" id="mensagem" placeholder="Escreva a sua mensagem aqui..."></textarea>
                 </section>
+                <form>
                     <fieldset>
-                        <legend><li>Como prefere o nosso contato?</li></legend>
+                        <legend>
+                            <li>Como prefere o nosso contato?</li>
+                        </legend>
                         <label>E-mail</label><input type="radio" name="contato" value="email" id="radio-email">
                         <label>Telefone</label><input type="radio" name="contato" value="telefone" id="radio-telefone">
-                        <label>Whatsapp</label><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>  
+                        <label>Whatsapp</label><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp"
+                            checked>
                     </fieldset>
                     <fieldset>
-                        <legend><li>Em qual período prefere nosso contato?</li></legend>
+                        <legend>
+                            <li>Em qual período prefere nosso contato?</li>
+                        </legend>
                         <select>
                             <option>Manhã</option>
                             <option>Tarde</option>
                             <option>Noite</option>
                         </select>
                     </fieldset>
-                    <label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por e-mail?</label>
+                    <label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por
+                        e-mail?</label>
                     <input type="submit" value="Enviar formulário" class="enviar">
                 </form>
-             
             </div>
-        <div class="tabela">
-            <table>
-                <thead>
-                    <tr>
-                        <th>Palestra</th>
-                        <th>Dia</th>
-                        <th>Hora</th>
-                    </tr>
-                </thead>
-                <body>
-                    <tr>
-                        <th>Malefícios do agrotóxico</th>
-                        <th>22/09/2021</th>
-                        <th>15h-16h</th>
-                    </tr>
-                    <tr>
-                        <th>Como reduzir o consumo de agrotóxicos no Brasil</th>
-                        <th>23/09/2021</th>
-                        <th>14h30-15h30</th>
-                    </tr>
-                </body>
-            </table>
-        </div>
- 
     </main>
     <!---------------- F I M - C O N T E U D O ------------------->
- 
+
     <!---------------- R O D A P E ------------------->
     <footer class="rodape">
         <div class="rodape-container">
@@ -106,6 +89,5 @@
     </footer>
     <!---------------- F I M - R O D A P E ------------------->
 </body>
- 
-</html>
 
+</html>

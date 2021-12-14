@@ -4,15 +4,6 @@
     padding: 2% 5%;
 }
 
-.color-container{
-    margin: 50px 0px;
-    background-color:rgb(213, 213, 226);
-    padding: 50px;
-
-    border-radius: 20px;
-    box-shadow: 4px 4px 4px rgba(32, 34, 41, 0.171);
-}
-
 .section-titulo{
     text-align: center;
     font-weight: 600;
@@ -35,42 +26,26 @@
     border-bottom-style: solid;
     border-width: 1px;
 }
+
+.color-container{
+    margin: 50px 0px;
+    background-color:rgb(213, 213, 226);
+    padding: 50px;
+
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px rgba(32, 34, 41, 0.171);
+}
 .texto{
     padding: 15px 75px;
     font-size: 15px;
 }
-.paragrafo{
-    margin-bottom:  2%;
-}
-.img-item{
-    width: 400px;
-    border-radius: 10px;
-}
-.lista{
-    padding: 10px;
-}
-.lista-title{
-    font-weight: 600;
-    font-size: 25px;
-    padding: 10px 20px;
-    text-align: center;
-}
-.item-lista{
-    margin-top: 5px;
-    font-size: 15px;
-}
-.fonte-link{
-    font-size: 12px;
-    color: rgb(151, 136, 207);
-}
-.box-fonte{
-    text-align: right;
-}
-
-
-
 table {
     padding: 20px;
+    width: 100%;
+}
+
+.tabela{
+    margin: 20px;
 }
 
 thead {
@@ -93,7 +68,40 @@ tr, th {
     text-align: center;
 }
 
+.nome{
+    width: 20%;
+}
+.estrutura{
+    width: 30%;
+}
+.funcoes{
+    width: 5%;
+}
+.tipo{
+    width: 5%;
+}
+.classificacao{
+    width: 20%;
+}
+.aplicacoes{
+    width: 20%;
+}
+
 .img-estrutura-quim{
-    width: 200px;/* 
+    width: 250px;/* 
     padding: 2%; */
+}
+
+.lista{
+    padding: 10px;
+}
+.lista-title{
+    font-weight: 600;
+    font-size: 25px;
+    padding: 10px 20px;
+    text-align: center;
+}
+.item-lista{
+    margin-top: 5px;
+    font-size: 15px;
 }

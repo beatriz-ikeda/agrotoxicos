@@ -49,9 +49,7 @@ body{
 }
  
 .cabecalho h1{
-    font-size: 40px;/* 
-    text-transform: uppercase;
-    font-weight: 600; */
+    font-size: 40px;
     color: rgb(228, 226, 229);
     font-family: 'Lobster', cursive;
 }
@@ -106,8 +104,7 @@ body{
  
 .rodape p{
     color: rgb(228, 226, 229);
-    font-size: 15px;/* 
-    font-weight: 200; */
+    font-size: 15px;
     margin-right: 50px;
  
 }
