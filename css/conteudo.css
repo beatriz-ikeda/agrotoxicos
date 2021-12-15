@@ -67,8 +67,6 @@
     text-align: right;
 }
 
-
-
 table {
     padding: 20px;
 }
@@ -87,6 +85,7 @@ thead {
 
 tr, th {
     font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
     border: 1px solid black;
     padding: 10px 15px;
     vertical-align:top;

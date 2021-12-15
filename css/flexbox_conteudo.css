@@ -7,9 +7,6 @@
 .box-text{
     padding: 0 5%;
 }
-.box-img{/* 
-    padding-right: 1%; */
-}
  
 /* ------------M O B I L E------------ */
 @media screen and (max-width: 768px) {
@@ -30,8 +27,7 @@
         flex-direction: column;
         align-items: center;
 
-        margin: 5% 0;/* 
-        padding: 0 1%; */
+        margin: 5% 0;
     }
     .section-titulo{
         font-size: 38px;
@@ -56,6 +52,12 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    /* .tabela{
+        overflow-x: auto;
+    } */
+    tr, th{
+        font-size: 28px;
     }
     
     .img-item{

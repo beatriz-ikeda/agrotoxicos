@@ -16,7 +16,7 @@
 }
  
 /* ------------M O B I L E------------ */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1343px) {
  
     .info-container{
         flex-direction: column;
