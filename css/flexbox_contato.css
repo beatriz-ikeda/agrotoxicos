@@ -1,0 +1,45 @@
+
+
+@media screen and (max-width: 768px) {
+    
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        padding: 5% 5%;
+    }
+
+    .informacoes{
+        width: 100%;
+    }
+
+    .dados_pessoais{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    textarea{
+        width: 100%;
+    }
+
+    .botao{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .opcoes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .checkbox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

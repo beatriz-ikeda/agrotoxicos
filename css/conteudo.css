@@ -24,8 +24,7 @@
     border-width: 1px;
     border-style: solid;
 }
-.section-subtitle{/* 
-    text-align: center; */
+.section-subtitle{
     font-weight: 600;
     font-size: 25px;
     padding: 10px 20px;
